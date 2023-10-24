@@ -1,0 +1,75 @@
+.Start_container{
+    display: flex;
+    height: 100vh;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.Start_logo img{
+    width: 625px;
+    height: 522px;
+}
+
+.Start_content{
+    position: relative;
+}
+
+.Start_content h1{
+font-size: 80px;
+white-space: nowrap;
+}
+
+
+.Score_container{
+width: 135px;
+text-align: center;
+}
+.Score_container h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+.Score_container p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.diceSelector{
+    display: flex;
+    gap: 20px;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px !important;
+    width: 900px;
+    margin: 0 auto;
+    align-items: end;
+}
+.diceContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+.diceContainer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.error{
+    font-size: 17px !important;
+    color: red;
+  }
+  .gameplay{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .buttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } 
