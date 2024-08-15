@@ -8,7 +8,7 @@ const Start = (props) => {
         <img src="/images/dices 1.png" alt="" />
       </div>
       <div className='Start_content'>
-        <h1>Lucky Roll</h1>
+        <h1>RollMe</h1>
         <Button onClick={props.press} >Play Now</Button>
       </div>
     </div>
